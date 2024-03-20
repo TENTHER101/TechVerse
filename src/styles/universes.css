@@ -1,0 +1,43 @@
+/* Universes Section Styles */
+
+.universes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.universe-category {
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.universe-category h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.universe-category ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.universe-category ul li {
+  margin-bottom: 10px;
+}
+
+.universe-category ul li a {
+  display: block;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.universe-category ul li a:hover {
+  background-color: #0056b3;
+}
